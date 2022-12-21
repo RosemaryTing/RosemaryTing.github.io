@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>Rosemary Ting</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content=""> 
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body>
+  <!--header section start -->
+    <div class="header_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9">
+            <div class="menu_text">
+              <ul>
+                <div class="togle_3">
+                  <div class="menu_main">
+                    <div class="padding_left0"><a href="#About">About Me</a>
+                    <span class="padding_left0"><a href="#Project">Projects</a>
+                    <span class="padding_left0"><a href="#Connect">Connect</a></span></div>
+                  </div>
+                </div> 
+              </ul>
+            </div>      
+          </div>
+        </div>
+      </div>
+    <!-- banner section start -->
+    <div class="banner_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <h1 class="banner_taital", id = 'About'>About Me</h1> 
+            <h1 class="banner_taital_1">Rosemary Ting</h1>
+            <p class="banner_text">I'm an undergraduate student studying computer science and pursuing a data science minor at University of California, Berkeley. 
+            </p>
+            <p class="banner_text">Relevant Coursework: Multivariable Calculus (Math 53), Linear Algebra and Differential Equations (Math 54), The Foundations of Data Science (Data 8), Structure and Interpretation of Computer Programs (CS61A), Data Structures (CS61B), Principles & Techniques of Data Science (Data 100) 
+            </p>
+            <div class="contact_bt"><a href="contact.html"><u>CONNECT WITH ME</u><span class="contact_padding"></span></a></div>
+          </div>
+          <div class="col-sm-5">
+            <div><img src="images/me.jpg" class="image_1"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner section end -->
+  
+    <!-- team section start -->
+    <div class="team_section layout_padding">
+      <div class="container">
+        <h1 class="choose_taital", id = 'Project'><span>Projects</span></h1>
+        <p class="choose_text">These are some coding projects I have completed along with the coding languages used to create them.</p>
+        <div class="team_section_2 layout_padding">
+          <div class="container">
+            <div class="images_main_1">
+              <div class="row">
+                <div class="col-sm-5">
+                  <div class="image_4"><img src="images/byow.png"></div>
+                </div>
+                <div class="col-sm-7">
+                  <h2 class="consectetur_text">Build Your Own World (Java)</h2>
+                  <p class="dummy_text">I implemented a 2D tile-based world exploration engine that can generate varying pseudo-random worlds and support
+                    graphic rendering using Java's StdDraw library. I created an interactive system determined by keyboard input for starting a new game, player movement, and saving and
+                    loading game progress to persist worlds between game sessions. The project includes generating an enemy character through implementations of path-finding that will pursue game character using shortest
+                    path algorithms.</p>
+                </div>
+              </div>
+            </div>
+            <div class="images_main">
+              <div class="row">
+                <div class="col-sm-7">
+                  <h2 class="consectetur_text_1">NGordnet (Java)</h2>
+                  <p class="dummy_text_1">I developed web-browser based tools that explore the history of English word usage similar to the Google Ngram Viewer
+                    and WordNet dataset. The project graphically charts and textually displays the relative frequency of the input word usage between given years by
+                    calculating annual word frequency corresponding to total word count; displays all subsequent and intersecting hyponyms given multiple user-inputted 
+                    hypernyms sorted in relative popularity between given years. It was generated through the implementation of Mapping and Graphical Traversals to associate given words to a mapping of
+                    relevant years and total appearances for each word</p>
+                </div>
+                <div class="col-sm-5">
+                  <div class="image_4"><img src="images/wordnet.png"></div>
+                </div>
+              </div>
+            </div>
+            <div class="images_main_1">
+              <div class="row">
+                <div class="col-sm-5">
+                  <div class="image_4"><img src="images/l.png"></div>
+                </div>              
+                <div class="col-sm-7">
+                  <h2 class="consectetur_text">Scheme Interpreter (Python)</h2>
+                  <p class="dummy_text">I constructed an interpreter for a subset of the Scheme programming language as a dialect of Lisp. The project executed various Scheme procedures and special syntax forms 
+                    using expression evaluators that redirect Scheme symbol evaluation to appropriate function calls. It also allowed for tail optimizations to ensure recursive calls use constant stack space with implementations of the trampolining
+                    technique in Python.</p>
+                </div>
+              </div>
+            </div>
+            <div class="images_main">
+              <div class="row">
+                <div class="col-sm-7">
+                  <h2 class="consectetur_text_1">Ants vs. Somebees (Python)</h2>
+                  <p class="dummy_text_1"> I created a tower defense strategy game similar to “Plants Vs. Zombies” with object-oriented paradigms. It was constructed with turn-based strategies and respective health-deducting or shielding actions for various defending “Ant” and
+                    attacking “Bee” objects--with the objective of protecting the “Ant” base from bee invasion. It utilized class inheritance and method lookup while implementing distinct instance and class attributes</p>
+                </div>
+                <div class="col-sm-5">
+                  <div class="image_4"><img src="images/ants.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- team section start -->
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+      <div class="container">
+        <div class="footer_main">
+          <div class="footer_left">
+            <h1 class="contact_taital", id = 'Connect'><span>Connect with Me</span></h1>
+          </div>
+          <div class="footer_left">
+            <div class="location_text"><a href="https://www.linkedin.com/in/rosemary-ting" target="_blank"><img src="images/linkden-icon1.png"><span class="padding_left_15">LinkedIn</span></a></div>
+          </div>
+          <div class="footer_left">
+            <div class="location_text"><a href="https://github.com/RosemaryTing" target = "_blank"><img src="images/github.png"><span class="padding_left_15">GitHub</span></a></div>
+          </div>
+          <div class="footer_left">
+            <div class="location_text"><a href="#Connect"><img src="images/mail-icon.png"><span class="padding_left_15">rosemaryting@berkeley.edu</span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+      <div class="container">
+        <p class="copyright_text">Copyright 2020 All Right Reserved By <a href="https://html.design" target= "_blank">Free html  Templates</a></p>
+      </div>
+    </div>
+    <!-- copyright section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript --> 
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $(".fancybox").fancybox({
+    openEffect: "none",
+    closeEffect: "none"
+    });
+         
+    $(".zoom").hover(function(){
+         
+    $(this).addClass('transition');
+    }, function(){
+         
+    $(this).removeClass('transition');
+    });
+    });
+    </script> 
+    <script>
+     function openNav() {
+     document.getElementById("myNav").style.width = "100%";
+    }
+     function closeNav() {
+     document.getElementById("myNav").style.width = "0%";
+    }
+    </script>  
+</body>
+</html>
