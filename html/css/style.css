@@ -233,46 +233,6 @@ button {
     color: #fff;
 }
 
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 4;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-.overlay a {
-    padding: 0px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #f1f1f1;
-    display: block;
-    transition: 0.3s;
-}
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-.toggle_menu {
-    top: 8px;
-    position: relative;
-    left: 0px;
-}
-
 .togle_3 {
     float: left;
 }
@@ -349,119 +309,7 @@ button {
     opacity: 0;
     }
 }
-.services_section{
-    width: 100%;
-    float: left;
-    padding-bottom: 90px;
-}
-.services_taital{
-    width: 100%;
-    float: left;
-    font-size: 50px;
-    color: #addaed;
-    font-weight: 600;
-}
-.services_text{
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #333333;
-    margin-left: 0px;   
-}
-.box_section {
-    width: 100%;
-    float: left;
-    border: 1px solid #d0d0d0;
-    padding: 30px 20px 0px 20px;
-}
-.box_section:hover{
-    background-color: #89cbeb;
-    border: 1px solid #89cbeb;
-}
-.box_section:hover .tile_text{
-    color: #ffffff;
-}
-.box_section:hover .lorem_text{
-    color: #ffffff;
-}
-.box_section:hover .tiles_img_1{
-    background-image: url(../images/carpet-img2.png);
-}
-.box_section.active{
-    background-color: #89cbeb;
-    border: 1px solid #89cbeb;
-}
 
-.tiles_img {
-    width: 74px;
-    margin: 0 auto;
-    text-align: center;
-    min-height: 90px;
-    background-image: url(../images/tiles-img.png);
-    background-repeat: no-repeat;
-}
-.tiles_img_1 {
-    width: 74px;
-    margin: 0 auto;
-    text-align: center;
-    min-height: 90px;
-    background-image: url(../images/carpet-img.png);
-    background-repeat: no-repeat;
-}
-.tile_text{
-    width: 100%;
-    float: left;
-    font-size: 30px;
-    color: #2d2d2c;
-    text-align: center;
-    font-weight: 500;
-}
-.lorem_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #000000;
-    text-align: center;
-    margin-left: 0px;
-    font-weight: 500;
-}
-.tile_text.active {
-    color: #ffffff;
-}
-.lorem_text.active {
-    color: #ffffff;
-}
-#main_slider a.carousel-control-next {
-    position: absolute;
-    right: -30px;
-    top: 65%;
-}
-#main_slider .carousel-control-prev, #main_slider .carousel-control-next {
-    width: 65px;
-    height: 65px;
-    background: #404040;
-    opacity: 1;
-    font-size: 30px;
-    color: #ffffff;
-    border-radius: 100%;
-}
-#main_slider a.carousel-control-prev {
-    position: absolute;
-    left: -30px;
-    top: 65%;
-    background: #367d99;
-}
-#main_slider .carousel-control-prev:hover, #main_slider .carousel-control-next:hover, #main_slider .carousel-control-prev:focus, #main_slider .carousel-control-next:focus {
-    background: #367d99;
-    color: #fff;
-}
-.about_section{
-    width: 100%;
-    float: left;
-    background-color: #f0faff;
-    height: auto;
-    padding-bottom: 90px;
-}
 .images_main{
     width: 100%;
     float: left;
@@ -523,23 +371,6 @@ button {
     float: left;
     border: 1px solid #90ceec;
 }
-.client_taital {
-    width: 100%;
-    float: left;
-    font-size: 50px;
-    color: #90ceec;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 0px;
-}
-.client_text {
-    width: 100%;
-    float: left;
-    font-size: 20px;
-    color: #333333;
-    text-align: center;
-    text-transform: uppercase;
-}
 .image_3{
     width: 100%;
     float: left;
@@ -589,21 +420,6 @@ button {
     text-align: center;
     padding-top: 15px;
 }
-.follow_social_icon {
-    width: 100%;
-    float: left;
-    text-align: center;
-}
-.follow_social_icon ul{
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
-}
-.follow_social_icon li{
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 .consectetur_text {
     width: 100%;
     float: left;
@@ -638,19 +454,6 @@ button {
     margin-left: 0px;
     text-align: right;
 }
-.newsletter_section{
-    width: 100%;
-    float: left;
-    background-color: #89cbeb;
-    height: auto;
-    padding: 40px 0px;
-}
-.newsletter_text{
-    width: 100%;
-    float: left;
-    color: #ffffff;
-    font-size: 40px;
-}
 .tempor_text{
     width: 100%;
     float: left;
@@ -658,33 +461,6 @@ button {
     font-size: 16px;
     margin-left: 0px;
     margin-top: 0px;
-}
-.mail_bt_main{
-    width: 100%;
-    float: left;
-    padding-top: 20px;
-}
-.mail_text {
-    width: 60%;
-    float: left;
-    color: #000;
-    font-size: 16px;
-    background-color: #ffffff;
-    padding: 10px 15px;
-    border: 0px;
-    height: auto;
-}
-.subscribe_bt{
-    width: 150px;
-    float: left;
-    color: #ffffff;
-    font-size: 16px;
-    background-color: #282828;
-    padding: 10px 15px;
-    text-align: center;
-}
-.subscribe_bt a{
-    color: #ffffff;
 }
 .footer_section{
     width: 100%;
@@ -724,67 +500,12 @@ button {
 .padding_left_15{
     padding-left: 15px;
 }
-.mail_section {
-    width: 80%;
-    float: left;
-}
+
 .contact_section{
     width: 100%;
     float: left;
     padding-top: 40px;
 }
-.map_main {
-    width: 100%;
-    float: left;
-    padding-top: 20px;
-}
-.email_text {
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #717471;
-    background-color: transparent !important;
-    border-bottom: 2px solid #6f6f6f !important;
-    border: 0px;
-    padding: 20px 15px 10px 15px;
-    text-transform: uppercase;
-    height: auto;
-}
-input.email_text::placeholder {
-    color: #717471;
-}
-.massage_text {
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #717471;
-    background-color: transparent !important;
-    border-bottom: 2px solid #6f6f6f !important;
-    border: 0px;
-    height: 90px;
-    text-transform: uppercase;
-    padding: 40px 15px 0px 15px;  
-}
-textarea#comment::placeholder {
-    color: #717471;
-}
-.send_bt {
-    width: 150px;
-    float: left;
-    margin-top: 40px;
-}
-.send_bt a {
-    width: 100%;
-    float: left;
-    font-size: 20px;
-    color: #393a40;
-    text-align: center;
-    background-color: #89cbeb;
-    padding: 10px 0px;
-    text-transform: uppercase;
-    border-radius: 40px;
-}
-
 .social_icon {
     width: 100%;
     float: left;
